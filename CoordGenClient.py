@@ -18,7 +18,7 @@ serverSocket = socket.socket()
 #serverSocket.setTimeout(.005)
 serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
 serverSocket.bind((HOST,PORT))
-    
+     
 print('Server started')
 print('Socket Listening...')
 serverSocket.listen(5) # Queue of connections
